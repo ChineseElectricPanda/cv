@@ -21,6 +21,7 @@
 
 \documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
 \usepackage[none]{hyphenat}
+\usepackage{fontawesome5}
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -28,75 +29,70 @@
 %----------------------------------------------------------------------------------------
 
 \namesection{Hanzhi}{Wang}{ % Your name
-\href{mailto:hanzhi2@gmail.com}{hanzhi2@gmail.com} | Ph: +64 21 139 0697 \\ % Your contact information
-Github: \urlstyle{same}\url{github.com/ChineseElectricPanda} \\ % Your website, LinkedIn profile or other web address
+\href{mailto:hello@hanzhi.io}{hello@hanzhi.io} | 
+\href{https://github.com/ChineseElectricPanda/}{\faIcon{github} ChineseElectricPanda} |
+\href{https://www.linkedin.com/in/hanzhi-wang-405095117/}{\faIcon{linkedin} linkedin.hanzhi.io} \\ % Your website, LinkedIn href or other web address
 }
 
 %----------------------------------------------------------------------------------------
 %	LEFT COLUMN
 %----------------------------------------------------------------------------------------
 
-\begin{minipage}[t]{0.325\textwidth} % The left column takes up 33% of the text width of the page
+\begin{minipage}[t]{0.32\textwidth} % The left column takes up 33% of the text width of the page
 
 %------------------------------------------------
 % About Me
 %------------------------------------------------
 
 \section{About Me}
-I have recently graduated with a BE(Hons) in Software Engineering from the University of Auckland. I am friendly and motivated, and can work well on my own or in a group. My long term goal is to work full-time in the software industry as an experienced developer, and I am looking for a graduate role in the industry which will allow me to gain experience in the field of software development.
+I am currently a Software Engineer working on the OneDrive Sync team, helping to build a product used by hundreds of millions of people across the world. I have a passion for making things, especially when those things are useful to me or those around me.
 
-%------------------------------------------------
-% Education
-%------------------------------------------------
-
-\section{Education} 
-
-\subsection{University of Auckland}
-
-\descript{BE(Hons) in Software Engineering}
-\location{Completed Nov 2017 \\
-GPA: 8.8/9.0}
-\textbf{Key papers:} \\
-\vspace{0.1em}
-Computer Networks \\
-Data Structures \& Algorithms \\
-Databases \\
-Formal Specification and Design \\
-Human-Computer Interaction \\
-Network Defence and Countermeasures \\
-Object Oriented Software Construction \\
-Operating Systems \\
-Quality Assurance \\
-Software Architecture \\
-Software Development Methodologies \\
-
-
-
-\sectionspace % Some whitespace after the section
-
-%------------------------------------------------
-
-\subsection{Howick College}
-
-\location{Graduated Dec 2014}
-Top Academic Scholar of 2014
-
-\sectionspace % Some whitespace after the section
+\sectionspace
 
 %------------------------------------------------
 % Skills
 %------------------------------------------------
 
 \section{Skills}
-
-\subsection{Programming}
-
-\location{Proficient:}
-Java \textbullet{} C++ \textbullet{} HTML \textbullet{} CSS \textbullet{} JS \textbullet{} Node.js \\ React\\ 
-\location{Familiar:}
-C\# \textbullet{} Python \textbullet{} SQL \textbullet{} \LaTeX\\
+\raggedright
+C++ \textbullet{} C\# \textbullet{} React\\
+\vspace{0.5em}
+Ability to concisely communicate complex technical problems and solutions.\\
+\vspace{0.5em}
+Capability to quickly comprehend new information.\\
+\vspace{0.5em}
+Flexibility to jump into different areas where needed.\\
 
 \sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+
+\section{Education}
+
+\subsection{University of Auckland}
+\descript{BE(Hons) in Software Engineering}
+\location{Completed Nov 2017 \\
+GPA: 8.8/9.0}
+\vspace{0.5em}
+\textbf{Key papers:} \\
+\vspace{0.1em}
+Computer Networks \\
+Data Structures \& Algorithms \\
+Human-Computer Interaction \\
+Software Architecture \\
+\vspace{0.5em}
+Databases \\
+Formal Specification and Design \\
+Network Defence and Countermeasures \\
+Object Oriented Software Construction \\
+Operating Systems \\
+Quality Assurance \\
+Software Development Methodologies \\
+
+\sectionspace % Some whitespace after the section
+
 
 %------------------------------------------------
 % References
@@ -123,14 +119,16 @@ C\# \textbullet{} Python \textbullet{} SQL \textbullet{} \LaTeX\\
 \section{Experience}
 
 \runsubsection{Microsoft Corporation}
-\descript{| Software Engineering Intern}
-
-\location{Nov 2016 – Feb 2017 | Redmond, WA}
+\descript{| Software Engineer II (L62)}
+\location{OneDrive Desktop Sync Client}
+\location{Intern Nov 2016 - Feb 2017 | Full Time Oct 2018 – }
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Worked on OneDrive desktop client sync engine.
-\item Planned, designed, implemented, and tested a project end-to-end.
-\item Code was reviewed, tested, and checked in.
+\item Focusing on core sync logic and data model required to keep files in sync between the cloud and users' devices.
+\item Detailed consideration of all possible user scenarios due to large user base necessitating handling for edge cases.
+\item Independent end-to-end development of new features including: design, planning, formal specification, implementation, testing, instrumentation, and deployment monitoring.
+\item Investigations into user reports of product defects using logs and working with customers to drive tickets to resolution.
+\item Worked on shipping Desktop Sync support for "Add Shortcut to OneDrive" feature to help users more easily locate content shared with them.
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -140,11 +138,10 @@ C\# \textbullet{} Python \textbullet{} SQL \textbullet{} \LaTeX\\
 \runsubsection{University of Auckland}
 \descript{| Summer Research Student}
 
-\location{Nov 2015 – Feb 2016 | Auckland, New Zealand}
+\location{Nov 2015 – Feb 2016}
 \begin{tightitemize}
-\item Created a Google Chrome extension to collect users' Facebook advertisement data, send it to a database, and give the user feedback based on the food ads they are seeing.
-\item Created a web service with Node.js and database with MySQL to collect the data.
-\item The front-end, back-end, and database were built from the ground up as part of the project.
+\item Worked independently on design and implementation to create a Google Chrome extension to track and give feedback to participants based on food ads they saw on Facebook.
+\item Product was used as part of research by the School of Population Health.
 \end{tightitemize}
 
 \sectionspace % Some whitespace after the section
@@ -157,26 +154,22 @@ C\# \textbullet{} Python \textbullet{} SQL \textbullet{} \LaTeX\\
 \bgroup
 \setlength{\parindent}{-0.5em}
 \begin{tabular}{rll}
-\textbf{TutorMate} & Airbnb-style P2P tutoring services marketplace created as part\\
+\textbf{Twitch Plays Houseplant} & Live streamed houseplant with light and water pump\\
 \vspace{5pt}
-\textsuperscript{React | Node.js | PostgreSQL} & of final year engineering project\\
-\textbf{Canvas Video} & Google Chrome extension for improving lecture\\
-\textbf{Enhancer} & recordings' playback interface. Published in webstore with\\
+\textsuperscript{React | Node.js | Arduino | OBS} & controlled by Twitch chat.\\
+\textbf{TutorMate} & Airbnb-style P2P tutoring services marketplace created\\
 \vspace{5pt}
-\textsuperscript{HTML | CSS | JS} & 2200 users.\\
-\textbf{AdHealth} & Google Chrome extension for collecting Facebook ad data and\\
-\textsuperscript{JS | Node.js | MySQL} & giving users feedback on ads they are seeing. Part of ongoing\\
+\textsuperscript{React | Node.js | PostgreSQL} & as part of final year engineering project.\\
+\textbf{Canvas Video Enhancer} & Google Chrome extension for improving lecture\\
+\textsuperscript{HTML | CSS | JS} & recordings' playback interface. Published in webstore\\
 \vspace{5pt}
- & research into impact of social media on population health. \\
-\textbf{VIDIVOX} & An audio/video editor and mixer for Linux.\\ 
+& with over 3500 users.\\
+\textbf{VIDIVOX} & An audio/video editor and mixer for Linux with VLC\\ 
 \vspace{5pt}
-\textsuperscript{Java | Bash} \\
-\textbf{XKCD Viewer} & A Windows Phone app for viewing the popular web comic XKCD.\\
+\textsuperscript{Java | Bash} & backend integration.\\
+\textbf{XKCD Viewer} & A Windows Phone app for viewing the popular web comic\\
 \vspace{5pt}
-\textsuperscript{C\#} \\
-\textbf{SOFTENG 250} & A web app for generating practice exams for SOFTENG 250 \\
-\textbf{Exam Simulator} & based on past exam questions.\\
-\textsuperscript{JS | Node.js | MySQL}
+\textsuperscript{C\# | Xamarin} & XKCD.\\
 
 \end{tabular}
 \egroup
@@ -189,13 +182,10 @@ C\# \textbullet{} Python \textbullet{} SQL \textbullet{} \LaTeX\\
 \section{Achievements} 
 
 \begin{tabular}{rll}
-2015-7	 & University of Auckland Deans honours list for top 5\% GPA in year\\
-2017 	 & Top in course for Security for Smart Devices (CS702) \\
-2016     & Top in course for Computer Architecture (CS304), Software Architecture\\ &(SE325), Software Engineering Design (SE306)\\
-2015	 & Top in course for Software Engineering Theory (SE211)\\
-2015	 & 3\textsuperscript{rd} place in Microsoft College Coding Competition, Auckland\\
-2015	 & Received Edward Connely Scholarship for outstanding academic \\
-		 & performance\\
+2015-7	 & University of Auckland Deans honours list for top 5\% GPA in year.\\
+2015-7   & 5 top in course awards at the University of Auckland.\\
+2015	 & 3\textsuperscript{rd} place in Microsoft College Coding Competition.\\
+2015	 & Edward Connely Scholarship for outstanding academic performance.\\
 \end{tabular}
 
 \sectionspace % Some whitespace after the section
@@ -206,7 +196,9 @@ C\# \textbullet{} Python \textbullet{} SQL \textbullet{} \LaTeX\\
 \vspace{-0.5em}
 \section{Interests} 
 
-I am currently an active member in several university clubs including the Software Engineering Students Association, Polygon Club and the Board Games Club. In my spare time I like to play board games, video games, and work on personal programming and 3D printing projects.
+In my spare time I like to work on electronics and CAD design, combining my experience in software, electronic, and mechanical engineering disciplines to make things using 3D printing to help my day to day life, with a focus on IoT.\\
+\vspace{5pt}
+I also enjoy being outdoors skiing and hiking, as well as video games and board games indoors when the weather is less ideal.
 
 \sectionspace % Some whitespace after the section
 
